@@ -1,12 +1,11 @@
 using UnityEngine;
 using UnityEditor.Compilation;
 
-public abstract class Animal // MAIN CLASS
+public abstract class Animal : MonoBehaviour // MAIN CLASS
 {
     // ENCAPSULATION Properties
-    public int Age { get; set; }
-    public string Name { get; set; }
-    public float Speed { get; set; }
+    public int Live { get; set; }
+    public string Details { get; set; }
  
     public virtual void Walk()// POLYMORPHISM
     {
@@ -14,6 +13,6 @@ public abstract class Animal // MAIN CLASS
     }
 
     // ABSTRACTION
-    public abstract void GiveVoice();
+    public abstract void GiveDetails();
 
 }

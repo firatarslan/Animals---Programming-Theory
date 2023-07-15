@@ -4,12 +4,12 @@ using UnityEngine;
 
 public class Dog : Animal //INHERITANCE
 {
-    public override void GiveVoice()
+    public override void GiveDetails()
     {
-        Debug.Log("havv");
+        Debug.Log("Roof");
     }
     public override void Walk()
     {
-        Debug.Log("im dog walking with this speed:  " + Speed);
+        Debug.Log("im dog, walking slowly");
     }
 }

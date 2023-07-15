@@ -4,12 +4,13 @@ using UnityEngine;
 
 public class Cat : Animal //INHERITANCE
 {
-    public override void GiveVoice()
+    public override void GiveDetails()
     {
-        Debug.Log("Miyavv");
+        Debug.Log("Meav");
     }
     public override void Walk()
     {
-        Debug.Log("im Cat walking with this speed:  " + Speed);
+        Debug.Log("im Cat: runing");
     }
+    
 }
