@@ -8,4 +8,8 @@ public class Dog : Animal
     {
         Debug.Log("havv");
     }
+    public override void Walk()
+    {
+        Debug.Log("im dog walking with this speed:  " + Speed);
+    }
 }
